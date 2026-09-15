@@ -11,7 +11,7 @@ const port = 5000
 dotenv.config()
 connectDB()
 
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }))
+app.use(cors({ origin: 'https://easytech-fe.vercel.app', credentials: true }))
 
 //Middlewares
 app.use(express.json())
